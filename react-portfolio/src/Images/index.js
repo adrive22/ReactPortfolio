@@ -1,4 +1,10 @@
-export {default} from "./showmaps.png";
-export EyeCandy from "./EyeCandy.png";
-export CoverArt from "./coverArtShuffle.png";
+import coverArt from "./coverArtShuffle.png";
+import EyeCandy from "./EyeCandy.png";
+import showmaps from "./showmaps.png";
+
+export default{
+    coverArt,
+    EyeCandy,
+    showmaps
+}
 
