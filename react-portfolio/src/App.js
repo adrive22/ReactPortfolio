@@ -1,73 +1,48 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
+import Home from "./Pages/Home";
 
-import './App.css';
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
-import Text from "./components/TextBoxOne";
-import Bar from"./components/Bar";
-import ProjectImage from "./components/Projects/projectsLoop.js";
-import Projects from "./components/Projects/projectImages.js"
+// import EyeCandy from "./Pages/EyeCandy";
+import ProjectsPage from "./Pages/ProjectPage";
 
 
 
 
 
 
-class App extends Component{
-  
-  
+class App extends Component {
 
-  state = {
-    projectId: "",
-    
+  state={
+    projectId:"",
+    imageClicked: "false",
   }
 
 
-getId = (id) => {
-  console.log(id);
+actualProject=(project) => {
+  console.log(project);
+}
+
   
-  switch (id)
-{
-   case "1": console.log("numerouno");
-   
-   
-   break;
-   
-   case "2": console.log("numerdos")
-   break;
-   
-   case "3": console.log("numerotres")
-   break;
-   
-   default: console.log("default")
+  
+
+
+render(){
+  
+   return( 
+
+  <Router>
+    <div>
+   <Route path="/" exact= {true} render={(props)=><Home {...props} project={this.actualProject()}/>}/>
+
+      <Route path="/projectsPage/:projectId" exact = {true} render={(props)=><ProjectsPage {...props} projectId={this.state.projectId}/> }/>
+        
+    </div>
+  </Router>
+
+)
 }
 }
 
-
-componentDidMount = () =>{
-  
-  
-}
-
-
-  
-
-  
-
-
-
-  render(){
-    
-    return(
-      <Wrapper>
-        <Header/>
-        <Text/>
-        <ProjectImage getId={this.getId}/>
-        <Bar/>
-      </Wrapper>
-    )
-  }
-};
 
 export default App;
 

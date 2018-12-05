@@ -1,6 +1,9 @@
 import React from "react";
 import "./index.css";
 
+
+
+
 const TextOne = () => (
 <div>
     <h2>Creative front-end developer with experience designing and developing engaging websites and user interfaces.
