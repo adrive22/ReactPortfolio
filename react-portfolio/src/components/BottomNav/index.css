@@ -1,0 +1,14 @@
+.icons{
+    display:inline-flex;
+    margin-top:80%;
+    width:100%;
+    justify-content: space-around;
+    position:absolute;
+    bottom:0;
+    align-items: flex-end;
+    z-index:0;
+  
+    
+    
+}
+

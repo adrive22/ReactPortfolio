@@ -1,17 +1,31 @@
-import React, { Component } from 'react';
+import React, { Component,Link } from 'react';
+import "./index.css";
 
-
-import {Redirect, BrowserRouter as Router, Route } from "react-router-dom";
+import {Redirect} from "react-router-dom";
 import Wrapper from "../../components/Wrapper";
 import Header from "../../components/Header";
 import Text from "../../components/TextBoxOne";
 import Bar from"../../components/Bar";
 import ProjectImage from "../../components/Projects/projectsLoop.js";
 import ProjectsPage from "../ProjectPage";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import BottomNav from "../../components/BottomNav";
+import history from "../../history.js";
+import Resume from "../Resume";
+
+
+
 
 
 
 class Home extends Component{
+
+  componentDidMount=()=>{
+    history.push("/");
+    console.log(history);
+  }
+
+
 
 state = {
   project: "",
@@ -63,6 +77,7 @@ switch (id)
 
 
   render(){
+
     if(this.state.clicked==="true")
     return <Redirect to={"/projectsPage/"+this.state.projectId}/>
     return(
@@ -70,8 +85,11 @@ switch (id)
         <Header/>
         <Text/>
         <ProjectImage getId={this.getId}/>
+        <BottomNav/>
         <Bar/>
+        
       </Wrapper>
+     
       
     )
   }
