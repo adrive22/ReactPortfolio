@@ -11,7 +11,7 @@ const Projects = props => {
   console.log(props.projectData.image)
   return(
     
-    <div className="container">
+    <div className="imageContainer">
      <img onClick={() => props.getId(props.projectData.id)}   className="projectImages"  alt="placeholder" src={require(`../../images/${props.projectData.image}`)}/>
       </div>
     

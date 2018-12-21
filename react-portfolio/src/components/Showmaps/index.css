@@ -1,17 +1,61 @@
 
 
-.container{
+.projectContainer{
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  
+ 
 }
 
 
-.projectText, .projectTitle{
+.imagesContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:1%;
+}
+
+.projectList{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Caviar Dreams';
+    
+
+}
+
+.test{
     text-align:center;
     color:#82b6ce;
-    font-family: 'Raleway Dots', cursive; 
-    font-size: 20px;
+    font-family: 'Caviar Dreams';
+    font-size: 120%;
+    width:80%;
+    
 }
+
+
+
+.projectMainImage{
+    margin: 2%;
+    width:450px;
+    height:250px;
+  
+    margin-bottom: 5%;
+}
+
+
+
+ul{
+    margin:1.5%;
+    margin-top: 9%;
+    font-size:125%;
+}
+
+.projectLink{
+ margin-top:20%; 
+ font-size: 110%;  
+}
+
+@font-face{
+    font-family: "Caviar Dreams";
+    src:url('../../CaviarDreams.ttf') format('truetype');
+  }
+

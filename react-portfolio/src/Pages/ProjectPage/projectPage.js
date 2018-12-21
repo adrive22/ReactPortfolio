@@ -4,8 +4,9 @@ import EyeCandy from "../../components/EyeCandy";
 import CoverArt from "../../components/CoverArt";
 import "./project.css";
 import Header from "../../components/Header";
-import BottomNav from "../../components/BottomNav";
+
 import history from "../../history.js"
+import Wrapper from "../../components/Wrapper";
 
 
 
@@ -47,18 +48,12 @@ render(){
 
 
     return(
-        
-     <div>
-            <Header/>
-            <div>
+    
+         <Wrapper>
+             <Header className="header"/>
            {this.projectSwitch()}
-            </div>
-            <BottomNav/>
+        </Wrapper>
 
-
-
-    </div>            
-        
     )
 }
 }

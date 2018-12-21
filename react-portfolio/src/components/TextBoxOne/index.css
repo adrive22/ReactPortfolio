@@ -1,13 +1,22 @@
 .textOne{
     
     width: 45%;
-    font-size: 15px;
+    font-size: 120%;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 18%;
     float:left;
     position:absolute;
     color:#82b6ce;
-    font-family: 'Raleway Dots', cursive; 
-
+    font-family: 'Caviar Dreams';
+    font-weight:lighter;
 
 }
+
+
+
+
+
+@font-face{
+    font-family: "Caviar Dreams";
+    src:url('../../CaviarDreams.ttf') format('truetype');
+  }

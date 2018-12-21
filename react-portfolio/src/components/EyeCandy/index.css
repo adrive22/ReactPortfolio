@@ -1,6 +1,6 @@
 
 
-.container{
+.projectContainer{
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -9,9 +9,9 @@
   }
   
   
-  .projectText, .projectTitle{
+  /* .projectText, .projectTitle{
       text-align:center;
       color:#82b6ce;
       font-family: 'Raleway Dots', cursive; 
-      font-size: 20px;
-  }
+      font-size: 15px;
+  } */

@@ -1,4 +1,4 @@
-.icons{
+/* .icons{
     display:inline-flex;
     margin-top:80%;
     width:100%;
@@ -11,4 +11,23 @@
     
     
 }
+
+.githubIcon{
+    color:#779EA7;
+    font-size: 300%;
+    background-color: transparent;
+    outline:none;
+}
+
+.ui.button{
+    background-color:transparent;
+    outline:none;
+}
+
+.linkedinIcon{
+    color:#779EA7;
+    font-size: 300%;
+    background-color: transparent;
+    outline:none;
+} */
 

@@ -9,7 +9,7 @@ import Bar from"../../components/Bar";
 import ProjectImage from "../../components/Projects/projectsLoop.js";
 import ProjectsPage from "../ProjectPage";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import BottomNav from "../../components/BottomNav";
+
 import history from "../../history.js";
 import Resume from "../Resume";
 
@@ -85,9 +85,8 @@ switch (id)
         <Header/>
         <Text/>
         <ProjectImage getId={this.getId}/>
-        <BottomNav/>
-        <Bar/>
         
+        <Bar/>
       </Wrapper>
      
       
