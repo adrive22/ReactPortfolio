@@ -1,15 +1,15 @@
 .textOne{
-    
     width: 45%;
     font-size: 120%;
     margin-left: 5%;
-    margin-top: 18%;
+    margin-top: 12%;
     float:left;
     position:absolute;
-    color:#82b6ce;
+    color:#528fa8;
     font-family: 'Caviar Dreams';
-    font-weight:lighter;
-
+    font-weight:bold;
+    line-height: 1.7;
+    
 }
 
 

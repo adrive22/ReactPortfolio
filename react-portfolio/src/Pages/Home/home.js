@@ -1,17 +1,13 @@
 import React, { Component,Link } from 'react';
 import "./index.css";
-
 import {Redirect} from "react-router-dom";
 import Wrapper from "../../components/Wrapper";
 import Header from "../../components/Header";
 import Text from "../../components/TextBoxOne";
 import Bar from"../../components/Bar";
 import ProjectImage from "../../components/Projects/projectsLoop.js";
-import ProjectsPage from "../ProjectPage";
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-
+import BottomNav from "../../components/BottomNav";
 import history from "../../history.js";
-import Resume from "../Resume";
 
 
 
@@ -83,10 +79,11 @@ switch (id)
     return(
       <Wrapper>
         <Header/>
+        
         <Text/>
         <ProjectImage getId={this.getId}/>
-        
         <Bar/>
+        <BottomNav/>
       </Wrapper>
      
       

@@ -11,51 +11,57 @@
     display:flex;
     flex-direction:row;
     justify-content:center;
-    margin-top:1%;
+    margin-top:0%;
 }
 
 .projectList{
     display:flex;
     flex-direction: column;
     font-family: 'Caviar Dreams';
-    
-
+    color:#5a8596;
 }
 
 .test{
     text-align:center;
-    color:#82b6ce;
+    color:#5a8596;
     font-family: 'Caviar Dreams';
-    font-size: 120%;
+    font-size: 110%;
     width:80%;
-    
+    font-weight:bold;  
 }
 
 
-
 .projectMainImage{
-    margin: 2%;
+    margin: 0%;
     width:450px;
     height:250px;
-  
     margin-bottom: 5%;
 }
 
 
-
 ul{
     margin:1.5%;
-    margin-top: 9%;
+    margin-top: 3%;
     font-size:125%;
+    color:#5a8596;
+    font-weight:bold;
 }
 
 .projectLink{
- margin-top:20%; 
+ margin-top:15%; 
  font-size: 110%;  
+ color:#5a8596;
 }
 
 @font-face{
     font-family: "Caviar Dreams";
     src:url('../../CaviarDreams.ttf') format('truetype');
   }
+
+.webLink, .codeLink{
+    margin-top:1%;
+    margin-bottom: 0%;
+    color:#5a8596;
+}
+
 

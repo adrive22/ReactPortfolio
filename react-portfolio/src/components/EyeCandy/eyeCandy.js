@@ -15,15 +15,18 @@ const EyeCandy = () => {
           
         <div className="projectContainer">
          <div className="imagesContainer">
-            <img className="projectMainImage" src="https://via.placeholder.com/300x150"></img>
+            <img className="projectMainImage" src={require("../../images/EyeCandy2.jpg")}></img>
                 <ul className="projectList">
                 <Link className="projectLink" style={{color:'#82b6ce'}} to="/projectsPage/ShowMaps">Showmaps</Link>
                 <Link className="projectLink" style={{color:'#82b6ce'}} to="/projectsPage/EyeCandy">Eye Candy</Link>
                 <Link className="projectLink" style={{color:'#82b6ce'}} to="/projectsPage/CoverArt">AlbumArt</Link>
+                <a className="projectLink CanvasLink" style={{color:'#82b6ce'}} href="https://github.com/adrive22/CanvasAnimations">Canvas Animations</a>
                 </ul>
             </div>
-            <p className="test">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <p className="test">This web app uses Javascript, JQuery, AJAX, and the Giphy API, coupled with Semantic-UI styling to bring you an active entertaining world of giphs of your choosing. Y
+            ou can add buttons to search the Giphy API, and you can start and stop the giphs themselves. The page reloads after refreshing or leaving the site."</p>
+            <a className="webLink" href="https://adrive22.github.io/EyeCandy">View the Project Page</a>
+            <a className="codeLink" href="https://github.com/adrive22/EyeCandy">View the Code</a>
 
         </div> 
         

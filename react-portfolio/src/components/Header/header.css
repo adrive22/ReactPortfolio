@@ -7,18 +7,20 @@
 
 
 .h1{
-    margin-left: 10%;
+    margin-left: 5%;
     color: #82b6ce;
     font-family: 'Caviar Dreams';
-    font-weight: lighter;
-    font-size: 200%;
+    font-weight: bolder;
+    font-size: 250%;
 }
 
-.link{
-    margin-top:.1%;
-    font-size: 150%;
+.App{
+    margin-top:0.4%;
+    color: #82b6ce;
     font-family: 'Caviar Dreams';
-    margin-left: 5%;
+    margin-left: .5%;
+    font-weight: bold;
+    
 }
 
 @font-face{
@@ -49,4 +51,9 @@
     font-size: 200%;
     background-color: transparent;
     outline:none;
+}
+
+.websiteLink{
+    color:#528fa8;
+    ;
 }

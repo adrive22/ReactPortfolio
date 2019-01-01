@@ -1,33 +1,29 @@
-/* .icons{
+.bottom{
     display:inline-flex;
-    margin-top:80%;
+    margin-top:100%;
+    margin-bottom: 1%;
     width:100%;
-    justify-content: space-around;
-    position:absolute;
+    justify-content: space-evenly;
+    position:fixed;
     bottom:0;
     align-items: flex-end;
     z-index:0;
-  
-    
-    
+    font-family: "Caviar Dreams";
+    color:#528fa8;
+    font-weight: bold;
+    font-size:110%;
 }
 
-.githubIcon{
-    color:#779EA7;
-    font-size: 300%;
-    background-color: transparent;
-    outline:none;
+.email{
+    margin-right:5%;
 }
 
-.ui.button{
-    background-color:transparent;
-    outline:none;
+.phone{
+    margin-left: 5%;
 }
 
-.linkedinIcon{
-    color:#779EA7;
-    font-size: 300%;
-    background-color: transparent;
-    outline:none;
-} */
 
+@font-face{
+    font-family: "Caviar Dreams";
+    src:url('../../CaviarDreams.ttf') format('truetype');
+  }
