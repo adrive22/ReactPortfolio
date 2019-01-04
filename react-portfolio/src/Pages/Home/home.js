@@ -8,6 +8,8 @@ import Bar from"../../components/Bar";
 import ProjectImage from "../../components/Projects/projectsLoop.js";
 import BottomNav from "../../components/BottomNav";
 import history from "../../history.js";
+import MediaQuery from 'react-responsive';
+import Nav from "../../components/responsiveNav";
 
 
 
@@ -22,17 +24,10 @@ class Home extends Component{
   }
 
 
-
 state = {
   project: "",
   clicked:"false"
 }
-
-
-
-
-
-
 
 
 getId = (id) => {
@@ -69,9 +64,6 @@ switch (id)
 }
 
 
-
-
-
   render(){
 
     if(this.state.clicked==="true")
@@ -79,7 +71,7 @@ switch (id)
     return(
       <Wrapper>
         <Header/>
-        
+        <Nav/>
         <Text/>
         <ProjectImage getId={this.getId}/>
         <Bar/>

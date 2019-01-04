@@ -4,7 +4,7 @@ import { Button, Icon } from 'semantic-ui-react';
 import "./header.css";
 import Resume from "../../Pages/Resume";
 
-const Header = () =>(
+const Header = () => (
     <div className="headerContainer">
     <Link className="h1"  style={{color:'#82b6ce'}} to="/">Allison Driver</Link>
     <Resume/>

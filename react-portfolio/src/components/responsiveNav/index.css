@@ -1,0 +1,15 @@
+@media only screen and (min-width:700px) {
+    .navbar {
+     display:none;
+   }
+ }
+
+
+ @font-face{
+    font-family: "Caviar Dreams";
+    src:url('../../CaviarDreams.ttf') format('truetype');
+  }
+
+  nav{
+      font-family: "Caviar Dreams";
+  }
