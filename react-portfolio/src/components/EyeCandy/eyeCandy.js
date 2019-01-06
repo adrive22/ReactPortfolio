@@ -24,7 +24,7 @@ const EyeCandy = () => {
                 </ul>
             </div>
             <p className="test">This web app uses Javascript, JQuery, AJAX, and the Giphy API, coupled with Semantic-UI styling to bring you an active entertaining world of giphs of your choosing. Y
-            ou can add buttons to search the Giphy API, and you can start and stop the giphs themselves. The page reloads after refreshing or leaving the site."</p>
+            ou can add buttons to search the Giphy API, and you can start and stop the giphs themselves. The page reloads after refreshing or leaving the site.</p>
             <a className="webLink" href="https://adrive22.github.io/EyeCandy">View the Project Page</a>
             <a className="codeLink" href="https://github.com/adrive22/EyeCandy">View the Code</a>
 

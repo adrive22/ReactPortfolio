@@ -27,3 +27,12 @@
     font-family: "Caviar Dreams";
     src:url('../../CaviarDreams.ttf') format('truetype');
   }
+
+  @media only screen 
+  and (max-device-width : 500px)
+  and (orientation: portrait){
+    .bottom{
+        margin-top: 5%;
+        z-index: 1;
+    }
+  }
