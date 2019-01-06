@@ -65,3 +65,25 @@ ul{
 }
 
 
+
+
+@media only screen 
+  and (max-device-width : 620px){
+.projectList{
+    display:none;
+}
+
+.projectMainImage{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.projectContainer{
+    margin-top:7%;
+}
+
+.codeLink{
+    padding-bottom: 10%;
+}
+  }

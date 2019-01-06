@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import BottomNav from "../../components/BottomNav";
 import history from "../../history.js"
 import Wrapper from "../../components/Wrapper";
-
+import Nav from "../../components/responsiveNav";
 
 
 
@@ -51,6 +51,7 @@ render(){
     
          <Wrapper>
              <Header className="header"/>
+             <Nav/>
            {this.projectSwitch()}
            <BottomNav/>
         </Wrapper>

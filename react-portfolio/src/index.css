@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
  
 }
 
@@ -36,3 +37,6 @@ fade-leave.fade-leave-active{
    transition: opacity 300ms ease-in;
 }
 
+.html{
+  width:100%;
+}

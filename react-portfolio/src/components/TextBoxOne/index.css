@@ -20,3 +20,36 @@
     font-family: "Caviar Dreams";
     src:url('../../CaviarDreams.ttf') format('truetype');
   }
+
+  @media only screen 
+  and (max-device-width : 700px)
+  and (orientation:portrait) {
+ 
+
+    .textOne{
+        margin-top:40%;
+    }
+    }
+  
+
+
+
+@media only screen 
+  and (max-device-width : 500px) {
+
+    .textOne{
+        width: 80%;
+        float:none;
+        display: block;
+        font-size: 110%;
+        text-align:center;
+        margin-left: 10%;
+        margin-top:10%;
+    }
+  }
+
+  
+
+
+
+  

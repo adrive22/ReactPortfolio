@@ -4,6 +4,7 @@ import "./index.css";
 const Bar = () => (
 
 <div className="bar"></div>
+
 )
 
 export default Bar;

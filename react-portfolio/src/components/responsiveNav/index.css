@@ -1,6 +1,10 @@
+
+
+
 @media only screen and (min-width:700px) {
     .navbar {
      display:none;
+     
    }
  }
 
@@ -12,4 +16,10 @@
 
   nav{
       font-family: "Caviar Dreams";
+      width:100%;
+      position:absolute;
+      white-space: nowrap;
+      
   }
+
+
