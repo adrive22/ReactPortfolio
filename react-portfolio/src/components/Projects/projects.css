@@ -34,8 +34,19 @@ and (orientation : portrait){
     }
   }
 
+  @media only screen 
+  and (max-device-width : 850px)
+  and (orientation: landscape){
+    
+    .projectImages{
+   
+      width:110px;
+      height:50px;
+      margin-top:5%;
+      margin-bottom:5%;
+    }
 
-
+  }
 
 
 
@@ -72,9 +83,12 @@ and (orientation : portrait){
   @media only screen 
   and (max-device-width : 400px)
   and(orientation: portait){
+    .imageContainer{
+      margin-bottom: 10%;
+    }
     .projectImages{
-      margin-top:60%;
-      margin-bottom:-55%;
+      margin-top:55%;
+      margin-bottom:-50%;
 
     }
   }

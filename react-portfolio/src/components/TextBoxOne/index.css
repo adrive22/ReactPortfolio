@@ -11,21 +11,20 @@
     line-height: 1.7;
     
 }
-
-
-
-
-
 @font-face{
     font-family: "Caviar Dreams";
     src:url('../../CaviarDreams.ttf') format('truetype');
-  }
+ }
+
+
+
+
+
 
   @media only screen 
   and (max-device-width : 700px)
   and (orientation:portrait) {
  
-
     .textOne{
         margin-top:40%;
     }
@@ -35,7 +34,8 @@
 
 
 @media only screen 
-  and (max-device-width : 500px) {
+  and (max-device-width : 500px)
+  and (orientation: portrait) {
 
     .textOne{
         width: 80%;
@@ -50,6 +50,21 @@
 
   
 
+  @media only screen 
+  and (max-device-width : 820px)
+  and (orientation:landscape) {
 
+    .textOne{
+    font-size: 110%;
+    margin-left: 5%;
+    margin-top: 12%;
+    float:left;
+    position:absolute;
+    color:#528fa8;
+    font-family: 'Caviar Dreams';
+    font-weight:bold;
+    line-height: 1.7;
+  }
+}
 
   

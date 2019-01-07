@@ -36,3 +36,12 @@
         z-index: 1;
     }
   }
+
+  @media only screen 
+  and (max-device-width : 400px)
+  and(orientation: portait){
+    .projectImages{
+    position: inline;
+    padding-top: 10%;
+    }
+  }
