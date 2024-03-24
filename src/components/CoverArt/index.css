@@ -1,0 +1,29 @@
+
+
+.Projectcontainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  
+  
+  /* .projectText, .projectTitle{
+      text-align:center;
+      color:#82b6ce;
+      font-family: 'Raleway Dots', cursive; 
+      font-size: 20px;
+  } */
+
+  .p-pText{
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+  .ppLinks{
+    font-size: 20px !important;
+  }

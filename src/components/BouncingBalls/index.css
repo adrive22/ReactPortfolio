@@ -1,0 +1,20 @@
+.projectContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+  }
+  
+  .p-pText{
+    font-size: 50px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* .projectText, .projectTitle{
+      text-align:center;
+      color:#82b6ce;
+      font-family: 'Raleway Dots', cursive; 
+      font-size: 15px;
+  } */
