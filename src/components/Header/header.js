@@ -4,11 +4,19 @@ import React from  'react'
 import { MenuMenu, MenuItem, Menu } from 'semantic-ui-react'
 import "./header.css";
 import {Dropdown, DropdownMenu, DropdownItem, Button} from "semantic-ui-react"
+import { useNavigate } from "react-router-dom" 
+
+
 
 function Header () {
   
+  const navigate = useNavigate();
+
+
     return ( 
       <>
+
+
     <div className="headerContainer">
 
     
@@ -25,7 +33,7 @@ function Header () {
         Home
       </MenuItem>
      
-       {/* <MenuItem
+       <MenuItem
       
       className="wordNav"
          href="/projectsPage"
@@ -78,7 +86,7 @@ function Header () {
                </DropdownItem>
            </DropdownMenu>
          </Dropdown>
-         </MenuItem> */}
+         </MenuItem> 
          </MenuMenu>
          </Menu>
        

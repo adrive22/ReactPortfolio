@@ -1,0 +1,111 @@
+
+.headerContainer{
+    background-color: #F9F6EE;
+  }
+  
+  .ui.menu{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #F9F6EE !important;
+    font-weight: 500;
+    
+  }
+  
+  
+  
+  .ui.menu .item:before {
+  border: none !important;
+  background: none !important;
+  
+  
+  
+  
+  }
+    
+  
+    a.h1{
+        margin-left: 5%;
+        font-family: "Cormorant SC", serif;
+        font-size: 50px;
+       color: #415e6b;
+    }
+  
+    
+  
+    
+    .githubIcon{
+      color: #A2A7A6 !important;
+        font-size: 200%;
+        background-color: transparent;
+        outline:none;
+    }
+    
+  
+    .linkedinIcon{
+      color: #A2A7A6;
+        font-size: 200%;
+        background-color: transparent;
+        outline:none;
+    }
+    .link{
+    color: none !important;
+  }
+  
+  
+          /* border: 0px solid rgba(34, 36, 38, .15) !important;  
+            float: right !important;  
+           /* margin-left:50%;  */
+          /* margin-right:15% !important; */
+          
+            /* padding-left: 0rem !important; */
+      /* padding-right: 0rem !important; */
+      /* overflow: hidden !important;  */
+      
+      
+  
+         
+   /* .ui.menu.fluid{
+      background-color: #E7FFFB !important;
+      width: 100vw !important;
+      padding-left: 0rem !important;
+      padding-right: 0rem !important;
+      overflow: hidden !important; 
+      font-family: "EB Garamond", serif;
+      font-size:20px;
+     
+    }  */
+  
+    
+  
+   /* .navbar-collapse{
+    position: fixed; 
+    margin-left:67%;
+   
+  padding-right: 15% !important;
+     
+  } */
+  
+  .wordNav{
+    margin-right: 0;
+    border: none !important;
+    box-shadow: none !important;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+  
+    font-size: 125%;  
+    font-weight: 600 !important;
+    color:#415e6b !important;
+   
+  }
+  
+  .smallScreenNav {
+     
+      visibility: hidden; 
+       width: 0rem !important;  
+      opacity: 1 !important;
+      font-family: "Cormorant SC", serif;
+     
+    }
+  
+  
+  
+   
