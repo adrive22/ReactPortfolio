@@ -12,7 +12,12 @@ function App() {
    <Routes>
    <Route navigate={useNavigate}/>
    <Route path="/" element={<Home/>}/>
-
+   <Route path="/" element={<Home/>}/>
+    <Route path="/projectsPage/EyeCandy"  element={<EyeCandy/>} />
+    <Route path="/projectsPage/CoverArt"  element={<CoverArt/>} />
+    <Route path="/projectsPage"  element={<ProjectsPage/>} />
+    <Route path="/projectsPage/BouncingBalls"  element={<BouncingBalls/>} />
+    <Route path="/resume" element={<Resume/>}/>
    </Routes>
    </>
    
