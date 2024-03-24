@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./index.css"
 //import EyeCandyImg2 from 'Images/EyeCandy2.jpg'; // importing image
 import Header from "../Header/header.js";
-import BouncingBalls2 from "../../../Images/BouncingBalls2.png";
 import { GridRow, Divider, Container, GridColumn, Grid, Image} from 'semantic-ui-react';
 
 console.log("hello");
@@ -19,7 +18,7 @@ const BouncingBalls = () => {
 <Header/>
 <Grid centered columns={2}>
 <GridColumn container fluid >
-<Image size='massive' fluid src={BouncingBalls2}/>
+<Image size='massive' fluid src="../../../Images/BouncingBalls2.png"/>
 </GridColumn>
 
 <GridRow centered columns={2} textAlign="centered">

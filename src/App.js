@@ -4,9 +4,21 @@ import './App.css';
 import { Router, Routes, Route, Outlet, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom" 
 import Home from "./Pages/Home/home.js"
+import "./index.css"
+import EyeCandy from "./components/EyeCandy/eyeCandy.js";
+import Resume from "./Pages/Resume/resume.js"
+import BouncingBalls from "./components/BouncingBalls/bouncingBalls.js";
+import CoverArt from "./components/CoverArt/coverArt.js";
+import ProjectsPage from "./Pages/ProjectPage/projectPage.js";
+
+
+
+
 
 
 function App() {
+
+  
   return (
    <>
    <Routes>

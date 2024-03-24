@@ -109,3 +109,42 @@
   
   
    
+  
+  
+  
+  
+  
+  
+  @media (max-width: 993px) {
+  
+  .wordNav{
+    visibility: hidden;
+    pointer-events: none; 
+    border-collapse: collapse;
+    width:1% !important;
+    font-size:50%;
+    margin-top: 0 !important;
+  
+  }
+  .smallScreenNav{
+    visibility: visible;
+    z-index: 99;
+    border-collapse: collapse;
+    margin-left: 0;
+    font-size:120%;
+    height: 70%;
+   
+    
+  }
+  .bars{
+  z-index: 100;
+  }
+  }
+  @media (max-width: 776px){
+    .smallScreenNav{
+      margin-left:0;
+    }
+  
+  }
+  
+    

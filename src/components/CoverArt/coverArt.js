@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import "./index.css";
-import CoverArt2 from '../../../Images/CoverArt2.jpg'; // importing image
-import Header from "../Header/header.js";
-console.log("hello");
+import Header from "../Header/header.js";import "./index.css";
 import { GridRow, Divider, Container, GridColumn, Grid, Image} from 'semantic-ui-react';
 
 const CoverArt = () => {
@@ -16,7 +13,7 @@ const CoverArt = () => {
         <Header/>
         <Grid centered columns={2}>
 <GridColumn>
-  <Image src={CoverArt2} />
+  <Image src='../../../Images/CoverArt2.jpg' />
 </GridColumn>
 
 <GridRow centered columns={2}>
