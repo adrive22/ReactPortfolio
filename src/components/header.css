@@ -1,0 +1,31 @@
+.headerContainer{
+    background-color: #F9F6EE;
+  }
+  
+  .ui.menu{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #F9F6EE !important;
+    font-weight: 500;
+    
+  }
+  
+  
+  
+  .ui.menu .item:before {
+  border: none !important;
+  background: none !important;
+  
+  
+  
+  
+  }
+    
+  
+    a.h1{
+        margin-left: 5%;
+        font-family: "Cormorant SC", serif;
+        font-size: 50px;
+       color: #415e6b;
+    }
+  
