@@ -32,15 +32,14 @@ class ProjectImages extends Component {
 
     return (
       <Grid padded='vertically' relaxed='very' columns='equal'>
+
       <GridRow verticalAlign='middle'>
-        <GridColumn />
-        <GridColumn>
-          <GridColumn width={5} textAlign='center'>
+        <GridColumn/>
+        <GridColumn width={5} textAlign='center'>
             <div className='homeText p-p'>
               Discover an interactive world of GIFs with this web app. Utilizing JavaScript, jQuery, AJAX, and the Giphy API, along with sleek Semantic-UI styling, it offers customizable GIF search and playback controls. Enjoy a seamless experience, even after refreshing or leaving the page.
             </div>
           </GridColumn>
-        </GridColumn>
         <GridColumn width={5} verticalAlign='middle'>
           <Card centered href='/projectsPage/EyeCandy'>
             <Segment
@@ -57,10 +56,12 @@ class ProjectImages extends Component {
                 </Header>
               </Dimmer>
             </Segment>
-          </Card>
+            </Card>
         </GridColumn>
+        <GridColumn />
       </GridRow>
 
+      
       <GridRow verticalAlign='middle'>
         <GridColumn />
         <GridColumn width={5} verticalAlign='middle'>
@@ -87,6 +88,8 @@ class ProjectImages extends Component {
         <GridColumn />
       </GridRow>
 
+
+
       <GridRow verticalAlign='middle'>
         <GridColumn />
         <GridColumn width={5} textAlign='center'>
@@ -110,7 +113,9 @@ class ProjectImages extends Component {
             </Segment>
           </Card>
         </GridColumn>
+
         <GridColumn />
+
       </GridRow>
     </Grid>
   );
