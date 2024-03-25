@@ -1,6 +1,6 @@
 .ui.grid {
     margin: -1rem !important;
-    width: 100vw !important;
+    /* width: 100vw !important; */
     padding-left: 0rem !important;
     padding-right: 0rem !important;
     overflow: hidden !important; 
@@ -46,3 +46,12 @@
 .title{
   font-size: 30px;
 }
+
+.mobile{
+  display: none;
+}
+
+
+
+
+

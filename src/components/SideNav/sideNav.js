@@ -3,6 +3,7 @@ import "./index.css";
 import { useState, useEffect } from 'react';
 import {useNavigate} from "react-router";
 import ContainerComponent from './container.js';
+import {Icon} from  "semantic-ui-react";
 
 
 const SideNav = () => {
@@ -57,10 +58,13 @@ const SideNav = () => {
 
 <div className={`projectContainer ui attached  ${activeTab === 'EyeCandy' ? 'active' : ''}`} >
          {activeTab === 'EyeCandy' && (
-          <div>
-            <p className="learnMore" onClick={() => navigate("/projectsPage/EyeCandy")}>
-             Learn More
-              </p >
+          <div>   
+            <p className="learnMore" onClick={() => navigate("/projectsPage/EyeCandy")}>    
+            <Icon name="angle  right"/>
+              Learn More 
+               <Icon name="angle  left"/> 
+               </p >
+            
                 <img onClick={() => navigate("/projectsPage/EyeCandy")} className="ui fluid image " src="../../../Images/EyeCandy.png" alt="Eye Candy" />
               
             </div>
@@ -70,8 +74,10 @@ const SideNav = () => {
        {activeTab === 'CoverArt' && (
         <div>
           <p className="learnMore" onClick={() => navigate("/projectsPage/CoverArt")}>
-            Learn More
-            </p>
+          <Icon name="angle  right"/>
+              Learn More 
+               <Icon name="angle  left"/> 
+               </p >
           
             <img onClick={() => navigate("/projectsPage/CoverArt")} className="ui fluid image " src="../../../Images/coverArtShuffle.png" alt="Cover Art" />
           
@@ -82,8 +88,10 @@ const SideNav = () => {
          {activeTab === 'BouncingBalls' && (
           <div>
              <p className="learnMore" onClick={() => navigate("/projectsPage/BouncingBalls")}>
-            Learn More
-            </p>
+             <Icon name="angle  right"/>
+              Learn More 
+               <Icon name="angle  left"/> 
+               </p >
               <img onClick={() => navigate("/projectsPage/BouncingBalls")} className="ui fluid image " src="../../../Images/BouncingBalls.png" alt="Bouncing Balls" />
             </div>
         )}

@@ -28,12 +28,12 @@ useEffect(() => {
 
 
 return (
-  <>    
+  <>
  <Header />
   {clicked && <Navigate to={"/projectsPage/" + project} />}
   <Grid centered columns={2} >
-    <GridColumn textAlign="center">
-    <TextOne className="bodyBack"/>
+    <GridColumn width={10} textAlign="center">
+    <TextOne className="textOne"/>
     </GridColumn>
     </Grid>
 <br></br>
@@ -47,10 +47,11 @@ return (
     
       </div>
     </Divider>
+    <br></br>
 
 
-<Grid centered columns={2}>
-    <GridRow  columns={2}>
+<Grid className="secondRow" centered columns={2}>
+    <GridRow only='computer' columns={2}>
       <GridColumn width={7}verticalAlign='middle' className="sideNavContainer" >
         <SideNav />
       </GridColumn>
@@ -58,7 +59,24 @@ return (
       <TextTwo />
       </GridColumn>
     </GridRow>
+    <GridRow only="mobile" columns={1}>
+      <GridColumn  centered width={14}>
+      <SideNav />
+      </GridColumn>
+    </GridRow>
+      <GridRow only="mobile" columns={1}>
+      <GridColumn centered textAlign="center" width={14}>
+      <TextTwo />
+      </GridColumn>
+    </GridRow>
 </Grid>
+
+
+    
+
+
+
+
 
 
 <Divider horizontal>
@@ -70,7 +88,7 @@ return (
 
 
 <Grid verticalAlign='middle' columns={3} centered>
-    <GridRow >
+    <GridRow only='computer'>
       <GridColumn verticalAlign='middle'>
         <TextThree/>
       </GridColumn>
@@ -78,9 +96,23 @@ return (
       <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='medium' circular />
       </GridColumn>
     </GridRow>
-  </Grid>
+    <GridRow only="mobile" columns={1}>
+      <GridColumn  centered width={14}>
+      <Image centered src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' circular />
+      </GridColumn>
+    </GridRow>
+      <GridRow only="mobile" columns={1}>
+      <GridColumn centered textAlign="center" width={14}>
+      <TextThree/>
+      </GridColumn>
+    </GridRow>
+</Grid>
+
+
+
   
-</>
+  </>
+
   )
 }
 

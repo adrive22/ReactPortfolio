@@ -31,3 +31,13 @@
     font-size: 15px;
     
 }
+
+
+
+@media (max-width: 480px){
+    .greeting{
+        line-height: 1.5; /* Adjust the value as needed */
+}
+        }
+    
+  

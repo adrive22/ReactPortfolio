@@ -8,7 +8,7 @@ const TextOne = () => (
 
 <>
 
-    <div>
+    <div className="greetingContainer">
 <br></br>
 <br></br>
 
