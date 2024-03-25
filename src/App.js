@@ -10,7 +10,7 @@ import Resume from "./Pages/Resume/resume.js"
 import BouncingBalls from "./components/BouncingBalls/bouncingBalls.js";
 import CoverArt from "./components/CoverArt/coverArt.js";
 import ProjectsPage from "./Pages/ProjectPage/projectPage.js";
-
+import 'semantic-ui-css/semantic.min.css'
 
 
 
@@ -23,7 +23,6 @@ function App() {
    <>
    <Routes>
    <Route navigate={useNavigate}/>
-   <Route path="/" element={<Home/>}/>
    <Route path="/" element={<Home/>}/>
     <Route path="/projectsPage/EyeCandy"  element={<EyeCandy/>} />
     <Route path="/projectsPage/CoverArt"  element={<CoverArt/>} />

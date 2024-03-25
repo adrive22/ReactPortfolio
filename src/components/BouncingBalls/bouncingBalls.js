@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css"
 //import EyeCandyImg2 from 'Images/EyeCandy2.jpg'; // importing image
 import Header from "../Header/header.js";
-import { GridRow, Divider, Container, GridColumn, Grid, Image} from 'semantic-ui-react';
+import { GridRow,  GridColumn, Grid, Image} from 'semantic-ui-react';
 
 console.log("hello");
 
