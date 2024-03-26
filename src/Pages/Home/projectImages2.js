@@ -129,7 +129,7 @@ class ProjectImages extends Component {
 
 {/* Mobile Grid*/ }
 <Grid only="mobile" centered columns={1} >
- <GridRow >
+ <GridRow only="mobile"  >
         <GridColumn verticalAlign='middle'>
           <Card centered href='/projectsPage/EyeCandy'>
             <Segment
@@ -154,10 +154,10 @@ class ProjectImages extends Component {
       </GridRow>
 
 
-<Divider/>
+<Divider only="mobile" />
 
-<GridRow>
-        <GridColumn fluid verticalAlign='middle'>
+<GridRow only="mobile" >
+        <GridColumn only="mobile" fluid verticalAlign='middle'>
         <Card centered href='/projectsPage/CoverArt'>
             <Segment
               onMouseEnter={() => this.handleShow(0)}
@@ -181,11 +181,11 @@ class ProjectImages extends Component {
       </GridRow>
 
 
-      <Divider/>
+      <Divider only="mobile" />
 
-      <GridRow >
+      <GridRow only="mobile"  >
         <GridColumn fluid verticalAlign='middle'>
-        <Card centered href='/projectsPage/CoverArt'>
+        <Card centered href='/projectsPage/BouncingBalls'>
             <Segment
               onMouseEnter={() => this.handleShow(0)}
               onMouseLeave={() => this.handleHide(0)}

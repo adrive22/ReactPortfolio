@@ -1,11 +1,11 @@
-.projectContainer{
+/* .projectContainer{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
   
   }
-  
+   */
   
   /* .projectText, .projectTitle{
       text-align:center;
@@ -19,4 +19,11 @@
     font-family: "Zen Kaku Gothic Antique", sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+
+
+  @media (max-width: 480px){
+    .projectGrid{
+    margin-top: 30% !important;
+   }
   }

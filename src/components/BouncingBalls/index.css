@@ -18,3 +18,10 @@
       font-family: 'Raleway Dots', cursive; 
       font-size: 15px;
   } */
+
+
+  @media (max-width: 480px){
+    .bb{
+    margin-top: 10% !important;
+   }
+  }
