@@ -12,6 +12,7 @@ class ProjectImages extends Component {
     };
     this.handleShow = this.handleShow.bind(this);
     this.handleHide = this.handleHide.bind(this);
+    this.handleCardClick = this.handleCardClick.bind(this);
   }
 
   // Function to handle mouse enter
@@ -26,6 +27,11 @@ class ProjectImages extends Component {
     const { active } = this.state;
     active[index] = false;
     this.setState({ active });
+  }
+
+
+   handleCardClick(index) {
+    this.handleShow(index);
   }
 
   render() {
@@ -48,8 +54,6 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(0)}
               onMouseLeave={() => this.handleHide(0)}
-              onClick={() => this.handleShow(0)}
-              
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image src='../../../Images/EyeCandy.png' />
@@ -78,7 +82,6 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(1)}
               onMouseLeave={() => this.handleHide(1)}
-              onClick={() => this.handleShow(1)}
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='left' src='../../../Images/coverArtShuffle.png' />
@@ -109,7 +112,6 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(2)}
               onMouseLeave={() => this.handleHide(2)}
-              onClick={() => this.handleShow(2)}
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='right' src='../../../Images/BouncingBalls2.png' />
@@ -139,6 +141,7 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(0)}
               onMouseLeave={() => this.handleHide(0)}
+              onClick={() => this.handleCardClick(0)} 
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image src='../../../Images/EyeCandy.png' />
@@ -164,9 +167,9 @@ class ProjectImages extends Component {
         <GridColumn only="mobile" fluid verticalAlign='middle'>
         <Card centered href='/projectsPage/CoverArt'>
             <Segment
-              onMouseEnter={() => this.handleShow(0)}
-              onMouseLeave={() => this.handleHide(0)}
-              onClick={() => this.handleShow(0)} {/* Add onClick handler to reset dimmer */}
+              onMouseEnter={() => this.handleShow(1)}
+              onMouseLeave={() => this.handleHide(1)}
+              onClick={() => this.handleShow(1)} /* Add onClick handler to reset dimmer */
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='left' src='../../../Images/coverArtShuffle.png' />
@@ -174,7 +177,7 @@ class ProjectImages extends Component {
               <CardDescription textAlign="center">
               Dive into a React web game where images shuffle with each click. Avoid clicking the same image twice to maintain your score, all while tracking your highest score on-page. Built with create-react-app, it offers endless fun and challenge.
                </CardDescription>
-              <Dimmer active={active[1]} onMouseLeave={() => this.handleHide(0)}>
+              <Dimmer active={active[1]} onMouseLeave={() => this.handleHide(1)}>
                 <Header className='p-p' as='h2' icon inverted>
                   More Info
                   <HeaderSubheader className='p-p'>Cover Art Shuffle Game</HeaderSubheader>
@@ -192,8 +195,9 @@ class ProjectImages extends Component {
         <GridColumn fluid verticalAlign='middle'>
         <Card centered href='/projectsPage/BouncingBalls'>
             <Segment
-              onMouseEnter={() => this.handleShow(0)}
-              onMouseLeave={() => this.handleHide(0)}
+              onMouseEnter={() => this.handleShow(2)}
+              onMouseLeave={() => this.handleHide(2)}
+              onClick={() => this.handleCardClick(2)} 
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='right' src='../../../Images/BouncingBalls2.png' />
@@ -201,7 +205,7 @@ class ProjectImages extends Component {
               <CardDescription textAlign="center">
               Dive into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.
                </CardDescription>
-              <Dimmer active={active[2]} onMouseLeave={() => this.handleHide(0)}>
+              <Dimmer active={active[2]} onMouseLeave={() => this.handleHide(2)}>
                 <Header className='p-p' as='h2' icon inverted>
                   More Info
                   <HeaderSubheader className='p-p'>Bouncing Balls</HeaderSubheader>
