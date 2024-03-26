@@ -28,7 +28,7 @@ function App() {
     <Route path="/projectsPage/CoverArt"  element={<CoverArt/>} />
     <Route path="/projectsPage"  element={<ProjectsPage/>} />
     <Route path="/projectsPage/BouncingBalls"  element={<BouncingBalls/>} />
-    <Route path="/resume" element={<Resume/>}/>
+    
    </Routes>
    </>
    

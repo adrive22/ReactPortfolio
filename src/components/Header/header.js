@@ -42,14 +42,9 @@ function Header () {
       >
         Projects
       </MenuItem>
-        <MenuItem
-         
-        className="wordNav"
-         href="/resume"
-         name='resume'
-         onClick={() => navigate("/resume")}
-        >
-           Résumé
+        <MenuItem  
+        className="wordNav">
+        <Link to="https://docs.google.com/document/d/1VEntXTIjb3kF8sIPlKkvDS9V2tZJS1RgKkAhthd_lno/edit">Résumé</Link>
         </MenuItem>
         <MenuItem className="wordNav" >
         <Link to="https://www.linkedin.com/in/allison-driver/">
