@@ -29,6 +29,7 @@ class ProjectImages extends Component {
   // Function to handle mouse enter
   handleShow(index) {
     const { active } = this.state;
+    active.fill(false); // Reset all dimmer states
     active[index] = true;
     this.setState({ active });
   }
