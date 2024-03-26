@@ -34,6 +34,7 @@
   @media (max-width: 480px){
     .projectGrid{
     margin-top: 30% !important;
+    margin-bottom: 10% !important;
    }
    
 }

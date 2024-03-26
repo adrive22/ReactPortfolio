@@ -48,6 +48,8 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(0)}
               onMouseLeave={() => this.handleHide(0)}
+              onClick={() => this.handleShow(0)}
+              
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image src='../../../Images/EyeCandy.png' />
@@ -76,6 +78,7 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(1)}
               onMouseLeave={() => this.handleHide(1)}
+              onClick={() => this.handleShow(1)}
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='left' src='../../../Images/coverArtShuffle.png' />
@@ -106,6 +109,7 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(2)}
               onMouseLeave={() => this.handleHide(2)}
+              onClick={() => this.handleShow(2)}
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='right' src='../../../Images/BouncingBalls2.png' />
@@ -162,6 +166,7 @@ class ProjectImages extends Component {
             <Segment
               onMouseEnter={() => this.handleShow(0)}
               onMouseLeave={() => this.handleHide(0)}
+              onClick={() => this.handleShow(0)} {/* Add onClick handler to reset dimmer */}
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='left' src='../../../Images/coverArtShuffle.png' />
