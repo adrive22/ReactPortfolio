@@ -1,53 +1,44 @@
-import React, { Component } from 'react';
-import {Grid, GridRow, GridColumn, Card, Segment, Image, Header, Dimmer, HeaderSubheader, CardDescription,
-  CardContent, Divider} from "semantic-ui-react"
-import "./index.css"
+import React, { useState, useEffect } from 'react';
+import { Card, Grid, GridColumn, GridRow, Image, Segment, Header, HeaderSubheader, Dimmer, Divider, CardDescription } from 'semantic-ui-react';
+import { useNavigate } from 'react-router-dom';
 
+function ProjectImages() {
+  const [active, setActive] = useState([false, false, false]);
+  const navigate = useNavigate();
 
-class ProjectImages extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      active: [false, false, false] // Assuming there are 3 elements
+  useEffect(() => {
+    const resetState = () => {
+      navigate(-1); // Go back to the previous page
+      // Reset state values to false (optional, depending on your requirements)
+      setActive([false, false, false]);
     };
-    this.handleShow = this.handleShow.bind(this);
-    this.handleHide = this.handleHide.bind(this);
-    this.handleCardClick = this.handleCardClick.bind(this);
-  }
 
-  componentDidMount() {
-    // Add event listener when component mounts
-    window.addEventListener("popstate", this.resetState);
-  }
+    window.addEventListener("popstate", resetState);
 
-  componentWillUnmount() {
-    // Remove event listener when component unmounts
-    window.removeEventListener("popstate", this.resetState);
-  }
-
+    return () => {
+      window.removeEventListener("popstate", resetState);
+    };
+  }, [navigate]);
 
   // Function to handle mouse enter
-  handleShow(index) {
-    const { active } = this.state;
-    active.fill(false); // Reset all dimmer states
-    active[index] = true;
-    this.setState({ active });
-  }
+  const handleShow = (index) => {
+    const newActive = [...active];
+    newActive.fill(false); // Reset all dimmer states
+    newActive[index] = true;
+    setActive(newActive);
+  };
 
   // Function to handle mouse leave
-  handleHide(index) {
-    const { active } = this.state;
-    active[index] = false;
-    this.setState({ active });
-  }
+  const handleHide = (index) => {
+    const newActive = [...active];
+    newActive[index] = false;
+    setActive(newActive);
+  };
 
-
-   handleCardClick(index) {
-    this.handleShow(index);
-  }
-
-  render() {
-    const { active } = this.state;
+  // Function to handle card click
+  const handleCardClick = (index) => {
+    handleShow(index);
+  };
 
     return (
 
@@ -229,7 +220,7 @@ class ProjectImages extends Component {
       </GridRow>
   </Grid>
  </>
-    )}}
+    )}
 
     export default ProjectImages
  
