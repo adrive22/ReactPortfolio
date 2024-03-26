@@ -29,7 +29,7 @@ const CoverArt = () => {
 {/*computer*/}
 <GridRow only="computer" centered columns={2}>
   <GridColumn  textAlign="right" >
-  <Link classname="ppLinks" style={{color:'#415e6b', background:'#FFF'}} to="https://intense-hamlet-79255.herokuapp.com">View the Project Page in Action</Link>
+  <Link classname="ppLinks" style={{color:'#415e6b', background:'#FFF'}} to="https://young-peak-52854-e0cb5335d194.herokuapp.com">View the Project Page in Action</Link>
   </GridColumn>
   <GridColumn textAlign="left" >
     <Link  style={{color:'#415e6b'}} to="https://github.com/adrive22/AlbumCoverShuffle">View the Code for This Project on Github</Link>
