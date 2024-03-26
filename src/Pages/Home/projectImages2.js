@@ -15,6 +15,17 @@ class ProjectImages extends Component {
     this.handleCardClick = this.handleCardClick.bind(this);
   }
 
+  componentDidMount() {
+    // Add event listener when component mounts
+    window.addEventListener("popstate", this.resetState);
+  }
+
+  componentWillUnmount() {
+    // Remove event listener when component unmounts
+    window.removeEventListener("popstate", this.resetState);
+  }
+
+
   // Function to handle mouse enter
   handleShow(index) {
     const { active } = this.state;
