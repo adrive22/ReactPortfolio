@@ -16,7 +16,7 @@ const BouncingBalls = () => {
         <>
             
 <Header/>
-<Grid  centered >
+<Grid  centered verticalAlign='middle'>
         <GridRow columns={1} centered className="bb">
 {/*computer*/}
         <GridColumn only="computer" >
