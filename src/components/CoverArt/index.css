@@ -1,6 +1,6 @@
 
 
-.Projectcontainer{
+.projectContainer{
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -8,6 +8,7 @@
     
   }
   
+
   
   /* .projectText, .projectTitle{
       text-align:center;
@@ -32,8 +33,8 @@
 
 
   @media (max-width: 480px){
-    .projectGrid{
-    margin-top: 30% !important;
+    .projectImage{
+    margin-top: 10% !important;
     margin-bottom: 10% !important;
    }
    

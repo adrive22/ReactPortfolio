@@ -34,10 +34,7 @@ return (
  
     {clicked && <Navigate to={"/projectsPage/" + project} />}
     <Header />
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+   <br></br>
    <ProjectImages/>
 
     

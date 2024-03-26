@@ -35,7 +35,7 @@ return (
 
   {clicked && <Navigate to={"/projectsPage/" + project} />}
   <Grid centered columns={2} >
-    <GridColumn width={10} textAlign="center">
+    <GridColumn width={12} textAlign="center">
     <TextOne className="textOne"/>
     </GridColumn>
     </Grid>
@@ -58,12 +58,12 @@ return (
       <GridColumn width={7}verticalAlign='middle' className="sideNavContainer" >
         <SideNav />
       </GridColumn>
-      <GridColumn width={7} >
+      <GridColumn width={8} >
       <TextTwo />
       </GridColumn>
     </GridRow>
     <GridRow only="mobile" columns={1}>
-      <GridColumn  centered width={14}>
+      <GridColumn  centered width={16}>
       <SideNav />
       </GridColumn>
     </GridRow>

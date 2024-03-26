@@ -16,11 +16,11 @@ const EyeCandy = () => {
     return(
         <>
        <Header/>
-       <Grid  centered >
-        <GridRow columns={1} centered className="projectGrid">
+       <Grid  centered className="projectContainer" >
+        <GridRow columns={1} centered className="projectImage">
 {/*computer*/}
         <GridColumn only="computer" >
-          <Image centered size="large" src="../../../Images/EyeCandy2.jpg" />
+          <Image centered size="huge" src="../../../Images/EyeCandy2.jpg" />
         </GridColumn>
 {/*mobile*/}
         <GridColumn centered only="mobile">

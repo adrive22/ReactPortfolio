@@ -11,11 +11,11 @@ const CoverArt = () => {
     return(
         <>
         <Header/>
-        <Grid  centered >
-        <GridRow columns={1} centered className="projectGrid">
+        <Grid className="projectContainer" centered >
+        <GridRow columns={1} centered className="projectImage">
           {/*computer*/}
         <GridColumn only="computer" >
-  <Image src='../../../Images/CoverArt2.jpg' />
+  <Image centered size="huge" src='../../../Images/CoverArt2.jpg' />
 </GridColumn>
 {/*mobile*/}
 <GridColumn centered only="mobile">
