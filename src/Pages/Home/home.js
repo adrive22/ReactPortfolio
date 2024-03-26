@@ -10,6 +10,7 @@ import "./../../index.css";
 
 
 
+
 function Home () {
   const navigate = useNavigate();
   const [project, setProject] = useState("");
@@ -30,6 +31,8 @@ useEffect(() => {
 return (
   <>
  <Header />
+
+
   {clicked && <Navigate to={"/projectsPage/" + project} />}
   <Grid centered columns={2} >
     <GridColumn width={10} textAlign="center">

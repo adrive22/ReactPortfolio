@@ -6,6 +6,8 @@ import Header from "../../components/Header/header.js";
 
 import { useNavigate } from 'react-router-dom';
 import ProjectImages from "../Home/projectImages2.js";
+import TransitionExampleTransitionExplorer from "../Home/testinganimations.js"
+
 
 
 function ProjectPage () {
@@ -36,7 +38,8 @@ return (
     <br></br>
     <br></br>
     <br></br>
-    <ProjectImages/>
+   <ProjectImages/>
+
     
   </>
 
