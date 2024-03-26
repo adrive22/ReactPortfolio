@@ -1,6 +1,6 @@
 .ui.grid {
     margin: -1rem !important;
-    /* width: 100vw !important; */
+    width: 100vw !important; 
     padding-left: 0rem !important;
     padding-right: 0rem !important;
     overflow: hidden !important; 
@@ -53,5 +53,13 @@
 
 
 
+@media (max-width: 480px){
+.ui.grid {
+  margin: 0 !important;
+  width: auto !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  overflow: hidden !important; 
+}
 
-
+}
