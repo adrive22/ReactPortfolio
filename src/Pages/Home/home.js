@@ -63,7 +63,7 @@ return (
       </GridColumn>
     </GridRow>
     <GridRow only="mobile" columns={1}>
-      <GridColumn  centered width={16}>
+      <GridColumn  centered width={15}>
       <SideNav />
       </GridColumn>
     </GridRow>

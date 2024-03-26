@@ -65,7 +65,7 @@ const BouncingBalls = () => {
 <p className="test p-pText">Explore the captivating world of bouncing balls on this interactive web page. Using HTML, CSS, and JavaScript, this project showcases the mesmerizing motion of colorful balls gracefully bouncing across the screen. Each ball follows its unique trajectory, creating an engaging visual experience. With smooth animations and dynamic interactions, this demonstration highlights the creative potential of web development technologies. Dive into the playful realm of bouncing balls and witness the seamless synergy of design and code.</p>
 </GridColumn>
 </GridRow>
-
+<br></br>
 
 
 </Grid>

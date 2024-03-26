@@ -63,8 +63,9 @@ const EyeCandy = () => {
 <p className="test p-pText" >This web app uses Javascript, JQuery, AJAX, and the Giphy API, coupled with Semantic-UI styling to bring you an active entertaining world of giphs of your choosing. You can add buttons to search the Giphy API, and you can start and stop the giphs themselves. The page reloads after refreshing or leaving the site.</p>
 </GridColumn>
 </GridRow>
-
+<br></br>
 </Grid>
+
         </>
             
         
