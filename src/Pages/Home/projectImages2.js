@@ -119,7 +119,7 @@ class ProjectImages extends Component {
       <GridRow only="computer" verticalAlign='middle'>
         <GridColumn />
         <GridColumn width={5} textAlign='center'>
-          <div className='homeText p-p'>Dive into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.</div>
+          <div className='homeText p-p'>Immerse yourself into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.</div>
         </GridColumn>
         <GridColumn width={5} verticalAlign='middle'>
           <Card centered href='/projectsPage/BouncingBalls'>
@@ -187,7 +187,7 @@ class ProjectImages extends Component {
               style={{ cursor: 'pointer' }} // Apply cursor pointer style
             >
               <Image floated='left' src='../../../Images/coverArtShuffle.png' />
-              <Header className='title' textAlign='center'>Eye Candy</Header>
+              <Header className='title' textAlign='center'>Cover Art Shuffle React Game</Header>
               <CardDescription textAlign="center">
               Dive into a React web game where images shuffle with each click. Avoid clicking the same image twice to maintain your score, all while tracking your highest score on-page. Built with create-react-app, it offers endless fun and challenge.
                </CardDescription>
@@ -217,7 +217,7 @@ class ProjectImages extends Component {
               <Image floated='right' src='../../../Images/BouncingBalls2.png' />
               <Header className='title' textAlign='center'>Bouncing Balls</Header>
               <CardDescription textAlign="center">
-              Dive into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.
+              Immerse yourself into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.
                </CardDescription>
               <Dimmer active={active[2]} onMouseLeave={() => this.handleHide(2)}>
                 <Header className='p-p' as='h2' icon inverted>
