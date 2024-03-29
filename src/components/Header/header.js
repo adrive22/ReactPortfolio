@@ -45,7 +45,7 @@ function Header () {
         <MenuItem
         className="wordNav">
         <Link
-         to="https://drive.google.com/file/d/1wdrBKqM6epwdZZaGV2Raq0i83iebne34/view?usp=sharing"
+         to="https://drive.google.com/file/d/1LpbAXsBW-RGz5iteybbw_0_9aMc_LWWy/view?usp=sharing"
         >
         Résumé
         </Link>
@@ -57,7 +57,7 @@ function Header () {
                  </MenuItem>
                  <MenuItem className="wordNav" >
                  <Link className="wordNav"to="https://github.com/adrive22"> 
-                   <Icon link name='github grey square'/>
+                   <Icon link name='github grey square large'/>
                  </Link> 
                  </MenuItem> 
          <MenuItem className="smallScreenNav"vertical>
@@ -73,7 +73,7 @@ function Header () {
               </DropdownItem>
              <DropdownItem
              className="dropdownLink"
-            href="https://drive.google.com/file/d/1wdrBKqM6epwdZZaGV2Raq0i83iebne34/view?usp=sharing">
+            href="https://drive.google.com/file/d/1LpbAXsBW-RGz5iteybbw_0_9aMc_LWWy/view?usp=sharing">
               Résumé
               </DropdownItem>
               <DropdownItem

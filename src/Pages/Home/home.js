@@ -96,12 +96,12 @@ return (
         <TextThree/>
       </GridColumn>
       <GridColumn center>
-      <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='medium' circular />
+      <Image size="large" circular src="../../../Images/MainPagePhoto.png"  />
       </GridColumn>
     </GridRow>
     <GridRow only="mobile" columns={1}>
       <GridColumn  centered width={14}>
-      <Image centered src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' circular />
+      <Image size="medium" circular centered src="../../../Images/MainPagePhoto.png"  />
       </GridColumn>
     </GridRow>
       <GridRow only="mobile" columns={1}>
