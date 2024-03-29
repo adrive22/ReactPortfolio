@@ -12,43 +12,35 @@ const TextTwo = () => (
 <br></br>
    <div className="homeText">
    <p className="topic">
-   <Icon name="angle  right"/>Expertise in ReactJS:
+   <Icon name="angle  right"/>ReactJS and ReactJSX:
     <br></br>
-    <div className="subTopic">Specializing in crafting dynamic and interactive web applications using ReactJS.</div> </p>
+    <div className="subTopic">Experieince in crafting dynamic and interactive web applications using ReactJS, ReactJSX, and create-react-app.</div> </p>
     <br></br>
     <p className="topic">
-    <Icon name="angle  right"/>JavaScript & jQuery Mastery:
+    <Icon name="angle  right"/>JavaScript & jQuery:
     <br></br> 
     <div className="subTopic">Bringing ideas to life with JavaScript and jQuery, from subtle animations to complex functionalities.</div> </p>
     <br></br>
     <p className="topic">
-    <Icon name="angle  right"/>Responsive Design with Flexbox & Bootstrap: 
-    <br></br>
-    <div className="subTopic">Ensuring websites look stunning on any device, thanks to proficiency in Flexbox and Bootstrap.</div></p>
-    <br></br>
-    <p className="topic">
-    <Icon name="angle  right"/>Sleek UI with Semantic UI: 
+    <Icon name="angle  right"/>Sleek UI with Semantic-UI and Semantic-UI-React: 
      <br></br>
-     <div className="subTopic">Designing interfaces that are visually appealing and intuitive to use, leveraging Semantic UI. Additionally, Allison has expertise in Semantic UI React, combining the power of React with Semantic UI for seamless user experiences.</div> </p>
+     <div className="subTopic">Designing interfaces that are visually appealing and intuitive to use, leveraging Semantic-UI and React simultaneously.</div> </p>
    <br></br>
    <p className="topic">
-   <Icon name="angle  right"/>Design Tools Proficiency: 
-    <br></br>   
-    <div className="subTopic">Transforming visions into pixel-perfect realities with tools like Sketch.</div> </p>
-   <br></br>
-   <p className="topic">
-   <Icon name="angle  right"/>Solid Foundation in HTML & CSS: 
+   <Icon name="angle  right"/>Full-Stack Integration:
+    <br></br>
+    <div className="subTopic">Versed in connecting front-end applications with back-end technologies such as API's, Express, MongoDB, and Mongoose.</div> </p>
     <br></br>  
-    <div className="subTopic">Building projects on a strong foundation of HTML and CSS, ensuring optimal performance.</div> </p>
+    <p className="topic">
+    <Icon name="angle  right"/>Responsive Design Skills: 
+    <br></br>   
+    <div className="subTopic">Ensuring websites look stunning on any device.</div></p>
     <br></br>
     <p className="topic">
-    <Icon name="angle  right"/>Animation with CSS: 
-    <br></br>
-    <div className="subTopic">Explore the portfolio to view a showcase.</div></p>
+   <Icon name="angle  right"/> Design Tools and Wireframing Proficiency:
+    <br></br>   
+    <div className="subTopic">Transforming visions into realities with tools like Sketch.</div> </p>
     </div>
-    <br></br>
-    <br></br>
-    <br></br>
 </>
 )
 export default TextTwo;

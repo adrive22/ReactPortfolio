@@ -62,7 +62,7 @@ const BouncingBalls = () => {
 {/*mobile*/}
 <GridRow  only="mobile" centered >
 <GridColumn textAlign="center" padded centered>
-<p className="test p-pText">Explore the captivating world of bouncing balls on this interactive web page. Using HTML, CSS, and JavaScript, this project showcases the mesmerizing motion of colorful balls gracefully bouncing across the screen. Each ball follows its unique trajectory, creating an engaging visual experience. With smooth animations and dynamic interactions, this demonstration highlights the creative potential of web development technologies. Dive into the playful realm of bouncing balls and witness the seamless synergy of design and code.</p>
+<p className="test p-pText">This small project showcases the power of HTML, CSS, Javascript, and Canvas alone with mesmerizing motion of colorful balls gracefully bouncing across the screen. Each ball follows its unique trajectory, creating an engaging visual experience. With smooth animations and dynamic interactions, this demonstration highlights the creative potential of web development technologies.</p>
 </GridColumn>
 </GridRow>
 <br></br>

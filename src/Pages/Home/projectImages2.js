@@ -119,7 +119,7 @@ class ProjectImages extends Component {
       <GridRow only="computer" verticalAlign='middle'>
         <GridColumn />
         <GridColumn width={5} textAlign='center'>
-          <div className='homeText p-p'>Immerse yourself into the captivating world of bouncing balls on this interactive web page. With HTML, CSS, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.</div>
+          <div className='homeText p-p'> Using only HTML, CSS with canvas, and JavaScript, experience mesmerizing motion and vibrant colors as balls gracefully bounce across the screen. Explore the creative potential of web development technologies in this playful demonstration.</div>
         </GridColumn>
         <GridColumn width={5} verticalAlign='middle'>
           <Card centered href='/projectsPage/BouncingBalls'>
