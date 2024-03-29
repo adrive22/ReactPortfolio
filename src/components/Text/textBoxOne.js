@@ -19,7 +19,9 @@ const TextOne = () => (
     <br></br>
 
    <div className="topMainText">
-    You've arrived at the portfolio of Allison Driver, a full-stack developer with a strong focus on front-end development. Passionate about crafting engaging websites and user interfaces, I bring a comprehensive skill set and dedication to staying updated with the latest trends and technologies to every project undertaken.
+    You've arrived at the portfolio of Allison Driver, a front-end developer certified in full-stack development. This portfolio reflects the growing dedication I pour into my craft, bringing user interfaces to life with every project. I bring a comprehensive skill set, and a fascinated dedication to continued learning. My enjoyment in this field comes from the visual gratification of bridging art and science. 
+
+    <div>This portfolio website was made with ReactJS and ReactJSX, Semantic-UI, Semantic-UI-React, Bootstrap, Sketch, Javascript, Node.js, and is deployed through Heroku.</div> 
 
     </div>
     
