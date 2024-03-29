@@ -96,12 +96,12 @@ return (
         <TextThree/>
       </GridColumn>
       <GridColumn center>
-      <Image size="large" circular src="../../../Images/MainPagePhoto.png"  />
+      <Image size="medium" circular src="../../../Images/MainPagePhoto.png"  />
       </GridColumn>
     </GridRow>
     <GridRow only="mobile" columns={1}>
       <GridColumn  centered width={14}>
-      <Image size="medium" circular centered src="../../../Images/MainPagePhoto.png"  />
+      <Image size="small" circular centered src="../../../Images/MainPagePhoto.png"  />
       </GridColumn>
     </GridRow>
       <GridRow only="mobile" columns={1}>
