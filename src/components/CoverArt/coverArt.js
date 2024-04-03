@@ -32,7 +32,7 @@ const CoverArt = () => {
   <Link classname="ppLinks" style={{color:'#415e6b', background:'#FFF'}} to="https://young-peak-52854-e0cb5335d194.herokuapp.com">View the Project Page in Action</Link>
   </GridColumn>
   <GridColumn textAlign="left" >
-    <Link  style={{color:'#415e6b'}} to="https://github.com/adrive22/AlbumCoverShuffle">View the Code for This Project on Github</Link>
+    <Link  style={{color:'#415e6b'}} to="https://github.com/adrive22/AlbumCoverReactGame">View the Code for This Project on Github</Link>
   </GridColumn>
 </GridRow>
 {/*mobile*/}
@@ -41,7 +41,7 @@ const CoverArt = () => {
   <Link classname="ppLinks" style={{color:'#415e6b', background:'#FFF'}} to="https://young-peak-52854-e0cb5335d194.herokuapp.com">View the Project Page in Action</Link>
   </GridColumn>
   <GridColumn textAlign="center" >
-    <Link  style={{color:'#415e6b'}} to="https://github.com/adrive22/AlbumCoverShuffle">View the Code for This Project on Github</Link>
+    <Link  style={{color:'#415e6b'}} to="https://github.com/adrive22/AlbumCoverReactGame">View the Code for This Project on Github</Link>
   </GridColumn>
 </GridRow>
 

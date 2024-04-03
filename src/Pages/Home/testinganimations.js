@@ -1,39 +1,25 @@
-import React, { useState, useEffect } from 'react';
-import { Image, Transition } from 'semantic-ui-react';
+/**
+ * ===== Troubleshooting =====
+ * The function below should log the number 2, however it does not, 
+ * see if you can fix it!
+ * Be sure to fix it in the spirit of the code, do not hard code the result.
+ */
 
-const transitions = ['jiggle', 'flash', 'shake', 'pulse', 'tada', 'bounce', 'glow'];
+function troubleshooting() {
+	const a = 1;
+	const b = 1;
 
-const TransitionExampleTransitionExplorer = () => {
-  const [animation, setAnimation] = useState('shake');
-  const [duration, setDuration] = useState(2000);
-  const [visible, setVisible] = useState(true);
+	let result;
 
-  useEffect(() => {
-    let timeoutId;
+	// Edit between these lines
+	// =================================
+	result = (a + b);
+  console.log("hello");
 
-    const toggleVisibility = () => {
-      setVisible(prevVisible => !prevVisible);
-    };
+	// =================================
 
-    const startAnimation = () => {
-      toggleVisibility();
-      timeoutId = setTimeout(startAnimation, duration);
-    };
+	return result;
+}
 
-    startAnimation();
-
-    return () => clearTimeout(timeoutId); // Cleanup the timeout on component unmount
-  }, [duration]); // Re-run effect if duration changes
-
-  return React.createElement(
-    Transition,
-    { animation: animation, duration: duration, visible: visible },
-    React.createElement(
-      Image,
-      { centered: true, size: 'small', src: 'https://react.semantic-ui.com/images/leaves/5.png' }
-    )
-  );
-};
-
-
-export default TransitionExampleTransitionExplorer;
+// Do not change this 
+module.exports = troubleshooting;
