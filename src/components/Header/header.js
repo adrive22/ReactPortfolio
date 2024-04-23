@@ -45,7 +45,7 @@ function Header () {
         <MenuItem
         className="wordNav">
         <Link
-         to="https://drive.google.com/file/d/1mP5HXyTHPjBZB9cQZD-jCTvJJRN_XSyb/view?usp=sharing"
+         to="https://drive.google.com/file/d/1CpdM_4RpZPIPlAvxBuK3s-W2ab_8JMsl/view?usp=sharing"
         >
         Résumé
         </Link>
@@ -73,7 +73,7 @@ function Header () {
               </DropdownItem>
              <DropdownItem
              className="dropdownLink"
-            href="https://drive.google.com/file/d/1mP5HXyTHPjBZB9cQZD-jCTvJJRN_XSyb/view?usp=sharing">
+            href="https://drive.google.com/file/d/1CpdM_4RpZPIPlAvxBuK3s-W2ab_8JMsl/view?usp=sharing">
               Résumé
               </DropdownItem>
               <DropdownItem
