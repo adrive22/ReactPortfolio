@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'; // Import the CSS file for styling
+import './index.css'; 
 
 const ContainerComponent = ({ children }) => {
   return (

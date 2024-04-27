@@ -1,42 +1,32 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+
+}
 
 
-.projectContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
-    margin-bottom: 10%;
-    
-  }
-  
-
-  
-  /* .projectText, .projectTitle{
-      text-align:center;
-      color:#82b6ce;
-      font-family: 'Raleway Dots', cursive; 
-      font-size: 20px;
-  } */
-
-  .p-pText{
-    font-size: 20px;
-    font-family: "Zen Kaku Gothic Antique", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    display: inline-block;
-  }
+.p-pText {
+  font-size: 20px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: inline-block;
+}
 
 
-  .ppLinks{
-    font-size: 20px !important;
-  }
+.ppLinks {
+  font-size: 20px !important;
+}
 
 
 
-  @media (max-width: 480px){
-    .projectImage{
+@media (max-width: 480px) {
+  .projectImage {
     margin-top: 10% !important;
     margin-bottom: 10% !important;
-   }
-   
+  }
+
 }

@@ -1,47 +1,37 @@
 
-import  { React, useState, useEffect} from 'react';
-import { useParams, Navigate  } from 'react-router';
-import "./project.css";
+import { React, useState, useEffect } from 'react';
+import { useParams, Navigate } from 'react-router';
 import Header from "../../components/Header/header.js";
-
 import { useNavigate } from 'react-router-dom';
 import ProjectImages from "../Home/projectImages2.js";
-import TransitionExampleTransitionExplorer from "../Home/testinganimations.js"
 
 
 
-function ProjectPage () {
+
+function ProjectPage() {
   const navigate = useNavigate();
   const [project, setProject] = useState("/projectsPage");
   const [clicked, setClicked] = useState(false);
- 
-  
-
-
-useEffect(() => {
-  if (clicked) {
-    navigate("/projectsPage/" + project);
-    console.log(navigate);
-  }
-}, [clicked, project, navigate]);
 
 
 
+  useEffect(() => {
+    if (clicked) {
+      navigate("/projectsPage/" + project);
+      console.log(navigate);
+    }
+  }, [clicked, project, navigate]);
 
-return (
-  <>
- 
- 
-    {clicked && <Navigate to={"/projectsPage/" + project} />}
-    <Header />
-   <br></br>
-   <ProjectImages/>
 
-    
-  </>
 
-);
-
+  return (
+    <>
+      {clicked && <Navigate to={"/projectsPage/" + project} />}
+      <Header />
+      <br></br>
+      <ProjectImages />
+    </>
+  );
 }
 
 
@@ -50,7 +40,6 @@ export default ProjectPage;
 
 
 
-    
 
 
 
@@ -58,4 +47,5 @@ export default ProjectPage;
 
 
 
-    
+
+

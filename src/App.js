@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom"
 import Home from "./Pages/Home/home.js"
 import "./index.css"
 import EyeCandy from "./components/EyeCandy/eyeCandy.js";
-import Resume from "./Pages/Resume/resume.js"
+//import Resume from "./Pages/Resume/resume.js"
 import BouncingBalls from "./components/BouncingBalls/bouncingBalls.js";
 import CoverArt from "./components/CoverArt/coverArt.js";
 import ProjectsPage from "./Pages/ProjectPage/projectPage.js";
@@ -28,7 +28,7 @@ function App() {
     <Route path="/projectsPage/CoverArt"  element={<CoverArt/>} />
     <Route path="/projectsPage"  element={<ProjectsPage/>} />
     <Route path="/projectsPage/BouncingBalls"  element={<BouncingBalls/>} />
-    <Route path="/resume" element={<Resume/>}/>
+    <Route path="/resume" element={''}/>
    </Routes>
    </>
    

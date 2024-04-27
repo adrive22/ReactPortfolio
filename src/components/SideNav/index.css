@@ -1,18 +1,12 @@
 .ui.container {
-    width: 600px !important; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 0 20px; /* Add padding to the sides */
+    width: 600px !important; 
+    margin: 0 auto; 
+    padding: 0 20px; 
     text-align: center;
     
   }
   
-  /* 
-  .bottom{
-    width:20%;
-    height:100%;
-    margin-bottom: 50px;
-  } */
-  
+ 
   .ui.attached.tabular.menu {
   margin-left: 0 !important;
   margin-right: 0!important; 

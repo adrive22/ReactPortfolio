@@ -1,43 +1,41 @@
-.greeting{
+.greeting {
     font-family: "Zen Kaku Gothic Antique", sans-serif;
     font-weight: 500;
     font-style: bold;
     font-size: 30px;
 }
-    
 
-.homeText{
+
+.homeText {
     font-size: 15px;
     font-family: "Zen Kaku Gothic Antique", sans-serif;
-  font-weight: 500;
-  font-style: bold;
+    font-weight: 500;
+    font-style: bold;
 }
 
-.topMainText{
+.topMainText {
     font-family: "Zen Kaku Gothic Antique", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-    font-size:17px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
 
 }
 
-.topic{
+.topic {
     font-weight: bold;
     font-size: 17px;
 }
 
-.subTopic{
+.subTopic {
     font-weight: normal;
     font-size: 15px;
-    
+
 }
 
 
 
-@media (max-width: 480px){
-    .greeting{
-        line-height: 1.5; /* Adjust the value as needed */
+@media (max-width: 480px) {
+    .greeting {
+        line-height: 1.5;
+    }
 }
-        }
-    
-  
