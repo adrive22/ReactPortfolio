@@ -1,9 +1,9 @@
-import { useState, useEffect, } from 'react';
+import { useState, useEffect, Component} from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import Header from '../../components/Header/header.js';
 import TextOne from "../../components/Text/textBoxOne.js";
 import SideNav from "../../components/SideNav/sideNav.js";
-import { Grid, GridColumn, GridRow, Image, Divider, Icon } from "semantic-ui-react";
+import { Grid, GridColumn, GridRow, Image, Divider, Icon, Transition,} from "semantic-ui-react";
 import TextTwo from "../../components/Text/textBoxTwo.js";
 import TextThree from "../../components/Text/textBoxThree.js";
 import "./../../index.css";
@@ -11,10 +11,13 @@ import "./../../index.css";
 
 
 
-function Home() {
+  
+const Home = () => {
   const navigate = useNavigate();
   const [project, setProject] = useState("");
   const [clicked, setClicked] = useState(false);
+ 
+  
 
 
 
@@ -27,12 +30,9 @@ function Home() {
 
 
 
-
   return (
     <>
       <Header />
-
-
       {clicked && <Navigate to={"/projectsPage/" + project} />}
       <Grid centered columns={2} >
         <GridColumn width={12} textAlign="center">
@@ -57,7 +57,11 @@ function Home() {
         {/*Computer*/}
         <GridRow only='computer' columns={2}>
           <GridColumn width={7} verticalAlign='middle' className="sideNavContainer" >
-            <SideNav />
+         
+         <SideNav/>
+       
+            
+         
           </GridColumn>
           <GridColumn width={8} >
             <TextTwo />
@@ -111,7 +115,11 @@ function Home() {
       </Grid>
     </>
   )
-}
+  }
+
+
+
+
 
 
 export default Home;

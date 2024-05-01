@@ -18,6 +18,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 function App() {
 
+   
   
   return (
    <>
@@ -34,5 +35,4 @@ function App() {
    
   );
 }
-
 export default App;

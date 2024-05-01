@@ -11,6 +11,7 @@ const SideNav = () => {
   const [activeTab, setActiveTab] = useState('CoverArt');
 
 
+
   useEffect(() => {
     // Set the initial active tab when the component mounts
     setActiveTab("CoverArt");
