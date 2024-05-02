@@ -21,7 +21,7 @@ const TextOne = () => (
 
         <br></br>
 
-        <div className="topMainText">This portfolio website was made with React, Javascript, JSX, Semantic-UI, Semantic-UI-React, Bootstrap, and is deployed through Heroku.<a href="https://github.com/adrive22/ReactPortfolio"> View the code for this Portfolio.</a></div>
+        <div className="topMainText">This portfolio website was made with React, Javascript, JSX, Framer Motion, Semantic-UI-React, Bootstrap, and is deployed through Heroku.<a href="https://github.com/adrive22/ReactPortfolio"> View the code for this Portfolio.</a></div>
     </>
 )
 export default TextOne;

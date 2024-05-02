@@ -10,7 +10,7 @@
 .projectContainer {
   display: inline-flex;
   text-align: center;
-
+ 
 }
 
 .ui.attached.tabular.menu {
@@ -49,6 +49,10 @@
 .mobile {
   display: none;
 }
+
+
+
+
 
 
 
