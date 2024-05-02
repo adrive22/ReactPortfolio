@@ -1,1 +1,1 @@
-This portfolio website was made with ReactJS and ReactJSX, Semantic-UI, Semantic-UI-React, Bootstrap, Sketch, Javascript, Node.js, and is deployed through Heroku.
+This portfolio website was made with React, Javascript, JSX, Semantic-UI, Semantic-UI-React, Bootstrap, and is deployed through Heroku
